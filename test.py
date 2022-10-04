@@ -24,7 +24,6 @@ class Object(metaclass=Singleton2):
     pass
 
 
-
 if __name__ == '__main__':
     x = Object()
     y = Object()
