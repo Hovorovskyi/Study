@@ -30,7 +30,9 @@ class Object(metaclass=Singleton2):
 
 
 if __name__ == '__main__':
+
     x = Object()
     y = Object()
 
     print(x is y)
+    
